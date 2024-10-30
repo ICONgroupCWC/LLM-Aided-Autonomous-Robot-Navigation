@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="map_file" default="$(find jetbot_slam)/map/backstage_car.yaml"/>
+ <!-- Map server -->
+    <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+    <include file="$(find llm_autonomous)/launch/lidar.launch" />
+    <include file="$(find llm_autonomous)/launch/jetbot.launch" />
+    <include file="$(find llm_autonomous)/launch/turtlebot3_navigation.launch" />
+    <include file="$(find object_detection)/launch/obj_detection.launch" /> 
+   
+     <node pkg="llm_autonomous" type="location_pub.py" name="target" output="screen"/>
+        
+   
+
+</launch>

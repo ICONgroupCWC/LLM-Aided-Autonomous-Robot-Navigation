@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/jetbot/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jetbot/catkin_ws/src/auto_navigation/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/connection_check/include/**",
+        "/home/jetbot/catkin_ws/src/convert_service/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/data_subscriber/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/data_transfer/include/**",
+        "/home/jetbot/catkin_ws/src/depth_map/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/drive_bot/include/**",
+        "/home/jetbot/catkin_ws/src/first_node/include/**",
+        "/home/jetbot/catkin_ws/src/malith_demo/get_location/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/jetbot_model/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/jetbot_nav/include/**",
+        "/home/jetbot/catkin_ws/src/jetbot_pro/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/jetbot_slam/include/**",
+        "/home/jetbot/catkin_ws/src/jetbot_slam1/include/**",
+        "/home/jetbot/catkin_ws/src/demo_project/jetbot_slam_nav/include/**",
+        "/home/jetbot/catkin_ws/src/LLM_project/llm_autonomous/include/**",
+        "/home/jetbot/catkin_ws/src/malith_demo/malith_nav/include/**",
+        "/home/jetbot/catkin_ws/src/malith_demo/malith_slam/include/**",
+        "/home/jetbot/catkin_ws/src/model_test/include/**",
+        "/home/jetbot/catkin_ws/src/self_nevigation/include/**",
+        "/home/jetbot/catkin_ws/src/temperature_sensor/include/**",
+        "/home/jetbot/catkin_ws/src/text2speech/include/**",
+        "/home/jetbot/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/jetbot/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/jetbot/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

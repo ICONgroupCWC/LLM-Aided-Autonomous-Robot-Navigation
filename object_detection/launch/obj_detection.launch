@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="object_detection" type="trt_yolo_1.py" name="yolo" output="screen"/>
+</launch>
