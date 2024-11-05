@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    
+}
+
+.title-bar {
+    text-align: center; /* Center the title */
+    background-color: #4CAF50; /* Green color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding top and bottom */
+    border-top-left-radius: 10px; /* Rounded corners for the top-left */
+    border-top-right-radius: 10px; /* Rounded corners for the top-right */
+}
+
+.chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    clear: both;
+}
+
+.user-message {
+    background-color: #DCF8C6;
+    float: right;
+}
+
+.bot-message {
+    background-color: #CCE5FF;
+    float: left;
+}
+
+.bot-message2 {
+    float: left;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-container button {
+    width: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-image-container {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #7614cc; 
+    
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid #0ce513; 
+    border-radius: 50%; */
+}
+
+.sender-info {
+    display: inline-flex;
+    align-items: center;
+}
+
+.bot-name {
+    margin-right: 5px;
+}
+
+.message-content {
+    background-color: #CCE5FF;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/* .video-feed-container {
+    float: right; 
+    position: fixed;
+    margin: -600px ;
+    margin-right: 300px;
+} */
+
+.video-feed-container {
+    float: right; /* Float to the right */
+    position: fixed; /* Fixed position */
+    top: 200px; /* Adjust vertical position from the top */
+    right: 100px; /* Adjust horizontal position from the right */
+    margin-right: -400px;
+}
+
+.page-title {
+    background-color: #340cd6; /* Background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the text */
+    font-size: 36px; /* Font size */
+    text-align: center; /* Center align the text */
+}
+
+

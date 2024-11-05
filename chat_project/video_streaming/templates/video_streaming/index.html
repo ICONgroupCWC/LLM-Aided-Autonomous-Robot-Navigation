@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        body {
+            background-image: url('https://global.honda/en/brand/assets/wallpaper/img/img-slide16.jpg'); /* Replace 'background.jpg' with the actual filename of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+    }
+
+    </style>
+    
+
+
+</head>
+<body>
+
+
+
+<div class="page-title">
+    <h1>LLM-Aided Autonomous Robot Navigation</h1>
+</div>
+
+
+
+<div class="container">
+    <div class="title-bar">
+        <h1>Jet Chat</h1>
+    </div>
+
+    <div class="chat-container" id="chat-container">
+        <div class="message bot-message2">
+            <div class="sender-info">
+                <div class="profile-image-container">
+                    <img src="{% static 'jetbot.png' %}" alt="User Icon" class="profile-image">
+                </div>
+            </div>
+            <div class="message-content">Welcome to the Jetbot Chat Interface!</div>
+        </div>
+    </div>
+
+    <form id="message-form" class="input-container">
+        {% csrf_token %}
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<div class="video-feed-container">
+    <h1>Robot Video Feed</h1>
+    <img src="{% url 'video_feed' %}"> 
+</div>
+
+<script src="{% static 'script.js' %}"></script>
+
+<!-- <div class="video-feed-container">
+    <iframe src="{% url 'video_feed' %}" width="720" height="405"></iframe>
+</div> -->
+
+</body>
+</html>
