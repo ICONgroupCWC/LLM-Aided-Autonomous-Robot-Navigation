@@ -37,5 +37,15 @@ cd ~/<ros_workspace>/
 catkin_make
 source ~/<ros_workspace>/devel/setup.bash
 ```
-
+### Server 
+The server is an Ubuntu OS running machine equipped with ROS (Robot Operating System).To set up the Server, download this GitHub repository. After that, run the following commands to install the required dependencies and set up the database:
+-Install the required Python packages:
+```
+pip install -r requirements.txt
+```
+-Run the Django migrations to set up the database:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 
