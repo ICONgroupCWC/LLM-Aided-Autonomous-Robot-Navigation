@@ -49,4 +49,10 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
-
+## Demo in action
+[![Demo: LLM-Aided Autonomous Robot Navigation](https://img.youtube.com/vi/6jZNM8AZ7O0/sddefault.jpg)](https://youtu.be/6jZNM8AZ7O0?si=VtuXCl45IARs7lAU)
+## Contributors
+1. H.P. Madushanka ([madushanka.hewapathiranage@oulu.fi](madushanka.hewapathiranage@oulu.fi))
+2. Sumudu Samarakoon ([sumudu.samarakoon@oulu.fi](sumudu.samarakoon@oulu.fi))
+3. Rafaela Scaciota ([rafaela.scaciotatimoesdasilva@oulu.fi](rafaela.scaciotatimoesdasilva@oulu.fi)) 
+5. Mehdi Bennis ([mehdi.bennis@oulu.fi](mehdi.bennis@oulu.fi))
