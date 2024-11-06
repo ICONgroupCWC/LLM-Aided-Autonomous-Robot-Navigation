@@ -19,7 +19,7 @@ The resulting command, known as the DOA tuple `(destination: D, object: O, actio
 ## Hardware Configuration
 In this section, we will outline the setup process for the hardware components. The demo setup includes a robot, one server computers, and a wifi router. Let's delve into the specifics of setting up this hardware configuration.
 ### Jetbot robot
-The robot we’re using here is based on the JetBot ROS AI Kit and runs on an NVIDIA Jetson Nano. It has a 360-degree LiDAR sensor in the middle to help it "see" around itself, along with a RealSense D415 depth camera for better depth perception. For step-by-step setup details, you can check out the official [JetBot ROS AI Kit page](https://www.waveshare.com/wiki/JetBot_ROS_AI_Kit).
+The robot we’re using here is based on the JetBot ROS AI Kit and runs on an NVIDIA Jetson Nano. It has a 360-degree LiDAR sensor in the middle to help it "see" around itself, along with a RealSense D415 depth camera for object detection. For step-by-step setup details, you can check out the official [JetBot ROS AI Kit page](https://www.waveshare.com/wiki/JetBot_ROS_AI_Kit).
 
 To install the RealSense SDK, download it from Intel’s website  [here](https://dev.intelrealsense.com/docs/nvidia-jetson-tx2-installation) and follow their setup guide.
 
