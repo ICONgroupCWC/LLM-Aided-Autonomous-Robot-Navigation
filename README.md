@@ -38,7 +38,7 @@ catkin_make
 source ~/<ros_workspace>/devel/setup.bash
 ```
 ### Server 
-The server is an Ubuntu OS running machine equipped with ROS (Robot Operating System).To set up the Server, download this GitHub repository. After that, run the following commands to install the required dependencies and set up the database:
+The server is an Ubuntu OS running machine equipped with ROS (Robot Operating System).To set up the Server, download this GitHub repository and copy the `chat_project` folder into your workspace. After that, run the following commands to install the required dependencies and set up the database:
 
 - Install the required Python packages:
 ```
