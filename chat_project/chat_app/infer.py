@@ -55,7 +55,7 @@ def validate_model_output(output):
         print("The output is not valid JSON.")
         return False
     
-def infer():
+def infer(str_input):
 
     topic1 = '/target_location'
     topic2 = '/obj_class'
@@ -254,12 +254,8 @@ def infer():
     chain = LLMChain(llm=llm, prompt=prompt)
     
     # Run the chain only specifying the input variable.
-    user_query = '''
-    Check whether the video feed works in the meeting room
-        '''
-    instruction = '''Extract target location, action, and object as JSON'''
- 
-
+    user_query = "'''" + str_input + "'''"
+    
     # output = chain.run(user_query)
     output = chain.run({"query": user_query})# , "instruction": instruction})
     print(output)
@@ -289,7 +285,9 @@ def infer():
             pub2.publish(objec)
             pub3.publish(act)
     '''   
+    return output
 
 if __name__ == "__main__":
-
-    main()
+    
+    str_input =   "Check whether the video feed works in the meeting room"
+    infer(str_input)
