@@ -3,9 +3,9 @@ This repository demonstrates a project focused on enhancing human-robot interact
 
 By deploying an LLM-based architecture, the system translates human intent into structured instructions for the robot, defining three key parameters:
 
--**Go Where?** - Specifies the robot's destination.
--**Find What?** - Identifies objects or items to locate.
--**Do What?** - Outlines the intended action at the destination.
+- **Go Where?** - Specifies the robot's destination.
+- **Find What?** - Identifies objects or items to locate.
+- **Do What?** - Outlines the intended action at the destination.
 The resulting command, known as the DOA tuple `(destination: D, object: O, action: A)`, is shared with the robot, which then autonomously navigates to the destination and performs real-time object recognition and task execution. This solution simplifies human-robot communication, making robotic operations more accessible and adaptable in real-world applications.
 
 ### Hardware
@@ -15,7 +15,6 @@ The resulting command, known as the DOA tuple `(destination: D, object: O, actio
 ### Software and frameworks​
 - Opencv​
 - Robot Operating System​ (ROS)
-- 
 ## Hardware Configuration
 In this section, we will outline the setup process for the hardware components. The demo setup includes a robot, one server computers, and a wifi router. Let's delve into the specifics of setting up this hardware configuration.
 ### Jetbot robot
