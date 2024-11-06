@@ -6,6 +6,7 @@ By deploying an LLM-based architecture, the system translates human intent into 
 - **Go Where?** - Specifies the robot's destination.
 - **Find What?** - Identifies objects or items to locate.
 - **Do What?** - Outlines the intended action at the destination.
+
 The resulting command, known as the DOA tuple `(destination: D, object: O, action: A)`, is shared with the robot, which then autonomously navigates to the destination and performs real-time object recognition and task execution. This solution simplifies human-robot communication, making robotic operations more accessible and adaptable in real-world applications.
 
 ### Hardware
